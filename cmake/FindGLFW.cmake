@@ -12,7 +12,7 @@ find_library(
     NAMES
         ${GLFW_NAMES}
     PATHS
-        "/opt/homebrew/include/GLFW"
+        "/opt/homebrew/lib"
 )
 mark_as_advanced( GLFW_LIBRARY GLFW_INCLUDE_DIR )
 
